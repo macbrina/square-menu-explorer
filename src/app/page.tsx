@@ -158,7 +158,7 @@ export default function HomePage() {
         Skip to content
       </a>
 
-      <div className="flex h-screen bg-background">
+      <div className="flex h-dvh bg-background">
         {/* desktop sidebar */}
         <DesktopSidebar />
 

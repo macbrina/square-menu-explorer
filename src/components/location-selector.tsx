@@ -39,7 +39,7 @@ export function LocationSelector({
             placeholder={isLoading ? "Loading..." : "Pick a location"}
           />
         </SelectTrigger>
-        <SelectContent>
+        <SelectContent position="popper" sideOffset={4}>
           {locations.map((loc) => (
             <SelectItem key={loc.id} value={loc.id}>
               <span className="font-medium">{loc.name}</span>
